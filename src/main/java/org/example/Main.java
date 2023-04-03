@@ -6,10 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //app 클래스 안에. 메서드 어택을 지정한다.
-
-        new App(sc).attack();
-
+        new App(sc).run();
 
     }
 }
